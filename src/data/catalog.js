@@ -8,6 +8,7 @@ import mse335_ch6 from './chapters/mse335_chapter6.js'
 import mse335_ch7 from './chapters/mse335_chapter7.js'
 import mse335_ch8 from './chapters/mse335_chapter8.js'
 import mse335_ch9 from './chapters/mse335_chapter9.js'
+import mse335_ch10 from './chapters/mse335_chapter10.js'
 
 export const CATALOG = {
   MSE120: {
@@ -47,7 +48,8 @@ export const CATALOG = {
       mse335_ch6,
       mse335_ch7,
       mse335_ch8,
-      mse335_ch9
+      mse335_ch9,
+      mse335_ch10
     ],
   },
 };
