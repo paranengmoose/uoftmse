@@ -9,6 +9,7 @@ import mse335_ch7 from './chapters/mse335_chapter7.js'
 import mse335_ch8 from './chapters/mse335_chapter8.js'
 import mse335_ch9 from './chapters/mse335_chapter9.js'
 import mse335_ch10 from './chapters/mse335_chapter10.js'
+import mse219_ch1_1 from './chapters/mse219_chapter1-1.js'
 
 export const CATALOG = {
   MSE120: {
@@ -21,11 +22,10 @@ export const CATALOG = {
   },
   MSE219: {
     id: "MSE219",
-    name: "MSE 219 – Thermodynamics of Materials (sample)",
-    chapters: [{ id: "m219-ch1", title: "Chapter 1: Thermo Basics (sample)", questions: [
-      { q: "Which is a state function?", choices: ["Work","Heat","Enthalpy","Path length"], answer: 2, explanation: "Enthalpy depends only on state; heat/work are path functions." },
-      { q: "The Gibbs free energy is defined as:", choices: ["G = U + pV − TS","G = H − TS","G = F + pV","G = U − TS"], answer: 1, explanation: "G = H − TS for constant T,p work." }
-    ]}],
+    name: "MSE 219 – Structure and Characterization of Materials",
+    chapters: [
+      mse219_ch1_1
+    ],
   },
   MSE316: {
     id: "MSE316",
