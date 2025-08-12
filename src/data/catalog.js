@@ -9,7 +9,7 @@ import mse335_ch7 from './chapters/mse335_chapter7.js'
 import mse335_ch8 from './chapters/mse335_chapter8.js'
 import mse335_ch9 from './chapters/mse335_chapter9.js'
 import mse335_ch10 from './chapters/mse335_chapter10.js'
-import mse219_ch1_1 from './chapters/mse219_chapter1-1.js'
+import mse219_ch1_1 from './chapters/mse219_chapter1_1.js'
 
 export const CATALOG = {
   MSE120: {
