@@ -16,6 +16,7 @@ import mse219_ch1_4 from './chapters/mse219_chapter1_4.js'
 import mse219_ch2_1 from './chapters/mse219_chapter2_1.js'
 import mse219_ch2_2 from './chapters/mse219_chapter2_2.js'
 import mse219_ch2_3 from './chapters/mse219_chapter2_3.js'
+import mse316_ch1 from './chapters/mse316_chapter1_review.js'
 
 export const CATALOG = {
   MSE120: {
@@ -41,11 +42,10 @@ export const CATALOG = {
   },
   MSE316: {
     id: "MSE316",
-    name: "MSE 316 – Kinetics & Diffusion (sample)",
-    chapters: [{ id: "m316-ch1", title: "Chapter 1: Diffusion (sample)", questions: [
-      { q: "Fick's first law (1D):", choices: ["J = −D dC/dx","∂C/∂t = D ∂²C/∂x²","J = D dC/dx","J = kC"], answer: 0, explanation: "Flux proportional to concentration gradient with minus sign." },
-      { q: "Units of D:", choices: ["m/s","m²/s","1/s","kg/(m·s)"], answer: 1, explanation: "Diffusion coefficient has units of area per time." }
-    ]}],
+    name: "MSE 316 – Mechanical Behaviour of Materials",
+    chapters: [
+      mse316_ch1
+    ],
   },
   MSE335: {
     id: "MSE335",
