@@ -10,6 +10,7 @@ import mse335_ch8 from './chapters/mse335_chapter8.js'
 import mse335_ch9 from './chapters/mse335_chapter9.js'
 import mse335_ch10 from './chapters/mse335_chapter10.js'
 import mse219_ch1_1 from './chapters/mse219_chapter1_1.js'
+import mse219_ch1_2 from './chapters/mse219_chapter1_2.js'
 
 export const CATALOG = {
   MSE120: {
@@ -24,7 +25,8 @@ export const CATALOG = {
     id: "MSE219",
     name: "MSE 219 – Structure and Characterization of Materials",
     chapters: [
-      mse219_ch1_1
+      mse219_ch1_1,
+      mse219_ch1_2
     ],
   },
   MSE316: {
