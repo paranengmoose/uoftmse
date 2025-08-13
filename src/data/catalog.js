@@ -14,6 +14,7 @@ import mse219_ch1_2 from './chapters/mse219_chapter1_2.js'
 import mse219_ch1_3 from './chapters/mse219_chapter1_3.js'
 import mse219_ch1_4 from './chapters/mse219_chapter1_4.js'
 import mse219_ch2_1 from './chapters/mse219_chapter2_1.js'
+import mse219_ch2_2 from './chapters/mse219_chapter2_2.js'
 
 export const CATALOG = {
   MSE120: {
@@ -32,7 +33,8 @@ export const CATALOG = {
       mse219_ch1_2,
       mse219_ch1_3,
       mse219_ch1_4,
-      mse219_ch2_1
+      mse219_ch2_1,
+      mse219_ch2_2
     ],
   },
   MSE316: {
