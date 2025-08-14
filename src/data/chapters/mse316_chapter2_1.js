@@ -1,5 +1,5 @@
 // src/data/chapters/mse316_elasticity_2_1.js
-export default { id:"mse316_elasticity_2_1", title:"MSE316 Chapter 2-1 – Elastic Behaviour", questions:[
+export default { id:"mse316_elasticity_2_1", title:"MSE316 Chapter 2-1 – Elastic Behaviour (Linear Elasticity)", questions:[
   { q:"What is the correct distinction between stiffness and Young’s modulus?", choices:["Both are material properties","Both are sample properties","Stiffness is a sample property; modulus is a material property","Modulus is a sample property; stiffness is a material property"], answer:2, explanation:"Stiffness depends on geometry; modulus characterizes the material." },
   { q:"Young’s modulus measures:", choices:["The slope of force–displacement in any setup","A material’s uniaxial elastic stiffness (stress–strain slope)","The maximum load before fracture","Only shear response"], answer:1, explanation:"E is the elastic slope of the stress–strain curve." },
   { q:"The common offset used to define yield strength in metals is:", choices:["0.02 (2%)","0.002 (0.2%)","0.0002 (0.02%)","0.00002 (0.002%)"], answer:1, explanation:"The 0.2% offset method draws a line parallel to the elastic slope." },
