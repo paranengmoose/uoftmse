@@ -18,6 +18,7 @@ import mse219_ch2_2 from './chapters/mse219_chapter2_2.js'
 import mse219_ch2_3 from './chapters/mse219_chapter2_3.js'
 import mse316_ch1 from './chapters/mse316_chapter1_review.js'
 import mse316_ch2_1 from './chapters/mse316_chapter2_1.js'
+import mse316_ch2_2 from './chapters/mse316_chapter2_2.js'
 
 export const CATALOG = {
   MSE120: {
@@ -46,7 +47,8 @@ export const CATALOG = {
     name: "MSE 316 – Mechanical Behaviour of Materials",
     chapters: [
       mse316_ch1,
-      mse316_ch2_1
+      mse316_ch2_1,
+      mse316_ch2_2
     ],
   },
   MSE335: {
